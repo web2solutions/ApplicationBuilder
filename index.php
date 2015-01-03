@@ -46,7 +46,19 @@ setcookie(
 							,base_path : window.location.protocol + '//' + window.location.host + '/'
 						} );
 						
-					});					
+					});
+					
+					
+					
+					var userSelection;
+					if (window.getSelection) {
+						userSelection = window.getSelection();
+					}
+					else if (document.selection) { // should come last; Opera!
+						userSelection = document.selection.createRange();
+					}
+					
+									
              }
 			 window.onerror = function(msg, url, line, column, errorObj)
 			 {
