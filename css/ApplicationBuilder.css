@@ -12,7 +12,14 @@ html,body{
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
+	font-family: 'Raleway', sans-serif;
 }
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+div,td{font-family: 'Raleway', sans-serif;}
 
 .span_field_selector{
 	font-size:13px;

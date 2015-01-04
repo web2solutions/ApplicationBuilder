@@ -26,7 +26,9 @@ setcookie(
         <meta http-equiv='pragma' content='no-cache'>
         <meta charset="UTF-8">
         
-        <title></title>        
+        <title></title>
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato|Raleway|Open+Sans&subset=latin,latin-ext,cyrillic-ext,cyrillic,vietnamese,greek-ext,greek' rel='stylesheet' type='text/css'>
         
         <!-- CAIRS Framework -->
 		<script type="text/javascript" src="../CAIRS_Framework/CAIRS_fw.js"></script>
